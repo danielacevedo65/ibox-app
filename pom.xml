@@ -60,7 +60,9 @@
                   <phase>validate</phase>
                   <goals>
                       <goal>cobertura</goal>
+                      <!-- Integration Test won't work with mvn command line
                       <goal>cobertura-integration-test</goal>
+                       -->
                   </goals>
               </execution>
           </executions>

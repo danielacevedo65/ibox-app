@@ -10,7 +10,7 @@ import static org.junit.Assert.*;
 
 import edu.csupomona.cs585.ibox.sync.*;
 
-public class integrationTest {
+public class googledriveIT {
 	private GoogleDriveFileSyncManager g;
 	private java.io.File myFile;
 	private String pwd = "/Users/danielacevedo/Documents/iBox/test.txt";
